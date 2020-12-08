@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<meta charset="utf-8"/>
+<html>
+    <head>
+        <title>FBA Calculator</title>
+        <script src="calcFBA.js"></script>
+        <script src="calcFBA-helpers.js"></script>
+    </head>
+    <body style="font-family: helvetica, verdana, sans-serif; font-weight: normal;">
+        <div style="color: #FEC001; text-align: center; font-size: 20px">FBA Fee Calculator</div>
+        <table>
+            <tr><td>Length:</td><td><input type="textbox" id="length"/></td></tr>
+            <tr><td>Width:</td><td><input type="textbox" id="width"/></td></tr>
+            <tr><td>Height:</td><td><input type="textbox" id="height"/></td></tr>
+            <tr><td colspan="2">
+                <fieldset id="lengthMeasure">
+                    <input type="radio" name="lengthMeasure" value="cm"/>cm
+                    <input type="radio" name="lengthMeasure" value="in"/>in
+                </fieldset>
+            </td></tr>
+            <tr><td>Weight:</td><td><input type="textbox" id="weight"/></td></tr>
+            <tr><td colspan="2">
+                <fieldset id="weightMeasure">
+                    <input type="radio" name="weightMeasure" value="g"/>g
+                    <input type="radio" name="weightMeasure" value="oz"/>oz
+                    <input type="radio" name="weightMeasure" value="lb"/>lb
+                </fieldset>
+            </td></tr>
+        </table>
+        <div><input id="calcButton" type="button" value="Calculate"/></div>
+        <div id="output-wrapper">
+            <table>
+                <tr><td>Tier:</td><td><div id="tieroutput"></div></td></tr>
+                <tr><td>FBA Fee:</td><td><div id="fbaoutput"></div></td></tr>
+                <tr><td colspan="2"><div id="data"></div></td></tr>
+            </table>
+        </div>
+    </body>
+</html>

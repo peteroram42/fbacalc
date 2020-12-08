@@ -1,0 +1,43 @@
+FBA Fee Chart
+
+Size tier           weight      long        median  short   girth
+Small standard:	    12 oz,      15”, 	    12”, 	0.75”
+Large standard: 	20 lb, 	    18”, 	    14”, 	8”
+Small oversize: 	70 lb, 	    60”, 	    30”, 	-, 	    130”
+Medium oversize: 	150 lb,     108”,	    -, 	    -, 	    130”
+Large oversize: 	150 lb,     108”,	    -,	    -,	    165”
+Special oversize:	>150 lb,    over 108”,  -,      -,      165”
+
+For standard add 4 oz, for oversize add 16 oz
+girth is defined as 2 x (median + short)
+
+https://services.amazon.com/fulfillment-by-amazon/grow-with-fba/fee-management.html
+
+For < 1 lb or special oversize, use actual weight
+Otherwise greater of actual weight or dimensional weight
+Dimensional weight is (l x w x h (in)) / 139 
+
+cm -> in = 0.393701
+g -> lb = .00220462
+oz -> lb = .0625
+
+Small standard-size (10 oz or less)		2.50
+Small standard-seize (10+ to 16 oz) 	2.63
+Large standard-size (10 oz or less)		3.31
+Large standard-size (10+ to 16 oz)		3.48
+Large standard-size (1 to 2 lb)			4.90
+Large standard-size (2 to 3 lb)			5.42
+Large standard-size (3 lb to 21 lb)		5.42 + .38/lb over 3
+Small oversize (<= 71 lb) 				8.26 + .38/lb over 2 lb
+Medium oversize (<= 151 lb) 			11.37 + .39/lb over 2 lb
+Large oversize (<= 151 lb) 				75.78 + .79/lb over 90
+Special oversize					    137.32 + .91/lb over 90
+
+Updated with Feb 18, 2020 FBA fees.
+
+https://sellercentral.amazon.com/gp/help/help.html?itemID=G201112670&language=en_US
+
+NOTE: Does not include dangerous goods as those have different costs
+NOTE: Apparel, sports apparel and outdoor apparel products incur an additional $0.40 per-unit fulfillment fee. This does not apply to apparel accessories such as wallets and belts.
+Standard size is domestic and international
+Oversize is domestic only
